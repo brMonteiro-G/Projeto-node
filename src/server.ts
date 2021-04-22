@@ -10,4 +10,4 @@ app.use(express.json()) //Aqui definimos que o express vai receber as informaÃ§Ã
 
 app.use(routes)
 
-app.listen(3333), ()=> console.log("Server is running on port 3333") 
+app.listen(3333, ()=> console.log("Server is running on port 3333")) 

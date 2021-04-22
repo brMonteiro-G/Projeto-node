@@ -3,7 +3,7 @@ import {v4 as uuid} from "uuid"
 
 //Necessário habilitar no tsconfig.json seguindo doc do typeorm
 
-@Entity()
+@Entity("settings")
 class Setting {
 
   @PrimaryColumn()
